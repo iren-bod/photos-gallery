@@ -1,2 +1,43 @@
-/* font-family: 'Alumni Sans', sans-serif;
-font-family: 'Rubik Iso', cursive; */
+:root {
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --heading-font-family: "Rubik Iso", cursive;
+  --default-font-family: "Alumni Sans", sans-serif;
+}
+body {
+  font-family: var(--default-font-family);
+}
+.hero {
+  background-image: url("/photos/bg.png");
+  text-align: center;
+  padding: 160px 0;
+}
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 84px;
+  letter-spacing: 0.2em;
+  color: var(--primary-color);
+}
+h2 {
+  font-family: var(--heading-font-family);
+  font-size: 55px;
+  line-height: 50px;
+  letter-spacing: 0.1em;
+  color: var(--primary-color);
+}
+.btn-branding {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 17px;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 50px;
+  padding: 18px 40px;
+}
+.btn-branding:hover {
+  color: #000000;
+  background-color: var(--secondary-color);
+}
