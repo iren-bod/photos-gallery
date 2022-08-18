@@ -4,15 +4,18 @@
   --heading-font-family: "Rubik Iso", cursive;
   --default-font-family: "Alumni Sans", sans-serif;
 }
+
 body {
   font-family: var(--default-font-family);
   background-color: var(--primary-color);
 }
+
 .hero {
   background-image: url("/photos/bg.png");
   text-align: center;
-  padding: 340px 0;
+  padding: 310px 0;
 }
+
 h1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
@@ -21,6 +24,7 @@ h1 {
   letter-spacing: 0.2em;
   color: var(--primary-color);
 }
+
 h2 {
   font-family: var(--heading-font-family);
   font-size: 65px;
@@ -28,6 +32,17 @@ h2 {
   letter-spacing: 0.1em;
   color: var(--secondary-color);
 }
+
+.get-contact {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 84px;
+  letter-spacing: 0.2em;
+  color: var(--secondary-color);
+  margin-top: 150px;
+}
+
 .btn-branding {
   font-family: var(--default-font-family);
   font-size: 24px;
@@ -38,21 +53,35 @@ h2 {
   border-radius: 50px;
   padding: 18px 40px;
 }
+
 .btn-branding:hover {
   color: var(--secondary-color);
   background-color: var(--primary-color);
 }
+
 img {
   width: 400px;
   height: 300px;
   object-fit: cover;
   margin-top: 50px;
 }
+
 p,
-h3 {
+h3,
+.email-link,
+.phone-link {
   color: var(--secondary-color);
   font-size: 36px;
 }
+
+.email-link {
+  text-decoration: none;
+}
+
+.phone-link {
+  text-decoration: none;
+}
+
 .btn-branding-outline {
   font-family: var(--default-font-family);
   font-size: 24px;
@@ -63,7 +92,16 @@ h3 {
   border-radius: 50px;
   padding: 15px 30px;
 }
+
 .btn-branding-outline:hover {
   background: var(--secondary-color);
   color: var(--primary-color);
+}
+
+.material-symbols-outlined {
+  padding-right: 15px;
+}
+
+.nav-link {
+  color: var(--secondary-color);
 }
